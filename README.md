@@ -39,7 +39,25 @@ Among the available testers on the same row, a pallet is assigned to the inside 
 ### Rescheduling
 ![image](https://github.com/seokjoopark/group6_final/assets/167041720/306c1f1e-8b16-438a-b7e5-0ea522caf03a)
 
+### Code description
+
+floors_env.py: Executes a rule-based model for pallets as an operating environment with scheduling methods set by the autopilot_flag.
+utils.arg_parser: Loads environment arguments.
+map.py: Visualizes the environment and pallets.
+pallet.py: Manages scheduling of pallets, testers, and other entities within the environment.
 
 
+
+
+
+### Result of simulation
+This is the result of running each flag with 200 samples each
 ![image24](https://github.com/seokjoopark/group6_final/assets/167041720/5789a94b-4fb7-4169-8fad-cdc24113ee99)
 ![image25](https://github.com/seokjoopark/group6_final/assets/167041720/7b5a235b-bb51-4ff4-9e49-a1699685ada7)
+
+### Summary of result
+We found out that FCFS scheduling simulation time takes 1,135 steps while MIN scheduling simulation time takes 1,526 steps. So for optimized Rule-based algorithms for LCD inspection, FCFS scheduling was more efficient.
+Our goal was to compare these results with Reinforcement learn and overcome this issue and evaluate the whole scheduling flags and compare it with Reinforcement learning method. 
+In stable_baselines/deepq/ dqn.py, we try to run the code for DQN and compare the results but issues in directing sources.
+
+
