@@ -57,7 +57,9 @@ This is the result of running each flag with 200 samples each
 
 ### Summary of result
 We found out that FCFS scheduling simulation time takes 1,135 steps while MIN scheduling simulation time takes 1,526 steps. So for optimized Rule-based algorithms for LCD inspection, FCFS scheduling was more efficient.
+
 Our goal was to compare these results with Reinforcement learn and overcome this issue and evaluate the whole scheduling flags and compare it with Reinforcement learning method. 
+
 In stable_baselines/deepq/ dqn.py, we try to run the code for DQN and compare the results but issues in directing sources.
 
 
