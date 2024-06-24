@@ -46,8 +46,8 @@ utils.arg_parser: Loads environment arguments.
 map.py: Visualizes the environment and pallets.
 pallet.py: Manages scheduling of pallets, testers, and other entities within the environment.
 
-
-
+To run the simulation, run floors_env.py file. 
+At row 409, you can change the "for autopilot_flag in [----] : " ---- part refers to the scheduling mode. FCFS & MIN
 
 
 ### Result of simulation
